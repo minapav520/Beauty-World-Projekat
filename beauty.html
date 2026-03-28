@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty World | ✨ Nega i Estetika</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="SLIKE/favicon.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <style>
+      .beauty-section {
+        padding: 80px 0;
+        transition: all 0.3s;
+      }
+      .beauty-section:hover {
+        background-color: #fff9fb;
+      }
+      .img-hover {
+        transition: transform 0.4s;
+      }
+      .img-hover:hover {
+        transform: scale(1.05);
+      }
+      .badge-category {
+        background-color: var(--tamno-roze);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        display: inline-block;
+      }
+      .tech-box {
+        background-color: #ffffff;
+        border-left: 4px solid var(--tamno-roze);
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        margin-top: 20px;
+      }
+      .border-pink {
+        border-color: var(--tamno-roze) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg custom-nav sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><span>✨</span> Beauty World <span>💄</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">🏠 Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="beauty.html"
+                >🌸 Nega i Estetika</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html">🖼️ Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="multimedija.html"
+                >📂 Media & Dokumenti</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kviz.html">📝 Kviz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-igra" href="igra.html">🎮 IGRA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-light py-5 text-center border-bottom">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Svet Lepote kroz prizmu Multimedije</h1>
+        <p class="lead text-muted">
+          Kako tehnologija pomaže da razumemo i unapredimo estetiku.
+        </p>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row beauty-section align-items-center">
+        <div class="col-md-5 text-center">
+          <img
+            src="SLIKE/skincare.jpg"
+            class="img-fluid rounded-4 shadow-lg img-hover img-manja"
+            alt="Skincare"
+          />
+        </div>
+        <div class="col-md-7 ps-md-5">
+          <span class="badge-category">Digitalna Slika</span>
+          <h2 class="mb-3">1. Skincare i Pikselizacija</h2>
+          <p>
+            Kada analiziramo teksturu kože na digitalnoj fotografiji, mi zapravo
+            posmatramo <strong>matricu piksela</strong>. Kvalitet prikaza svake
+            pore direktno zavisi od <strong>rezolucije</strong> (broja piksela
+            po inču) i <strong>dubine boja</strong>.
+          </p>
+          <p class="text-muted italic">
+            Baš kao što loša rezolucija kvari sliku, tako i nedostatak
+            hidratacije kvari prirodni "sjaj" kože.
+          </p>
+
+          <div class="tech-box">
+            <h6 class="fw-bold text-uppercase small mb-2">
+              Tehničke specifikacije:
+            </h6>
+            <ul class="list-unstyled mb-0 small text-muted">
+              <li>
+                • <strong>Format:</strong> .JPG (Joint Photographic Experts
+                Group)
+              </li>
+              <li>• <strong>Model boja:</strong> RGB (Red, Green, Blue)</li>
+              <li>• <strong>Obrada:</strong> Rasterizacija matrice podataka</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row beauty-section align-items-center border-top">
+        <div class="col-md-5 order-md-2 text-center">
+          <img
+            src="SLIKE/makeup.jpg"
+            class="img-fluid rounded-4 shadow-lg img-hover img-manja"
+            alt="Makeup"
+          />
+        </div>
+        <div class="col-md-7 order-md-1 pe-md-5">
+          <span class="badge-category">Teorija Boja</span>
+          <h2 class="mb-3">2. Makeup: RGB vs CMYK</h2>
+          <p>
+            Šminkanje je živa primena <strong>komplementarnih boja</strong>.
+            Razumevanjem kruga boja postižemo savršen balans u estetici, dok u
+            digitalnom svetu koristimo specifične modele mešanja boja.
+          </p>
+          <ul class="list-unstyled mb-3">
+            <li>
+              <strong>💻 RGB model:</strong> Aditivno mešanje svetlosti za
+              ekrane.
+            </li>
+            <li>
+              <strong>🖨️ CMYK model:</strong> Suptraktivno mešanje za štampu
+              kataloga.
+            </li>
+          </ul>
+
+          <div class="tech-box">
+            <h6 class="fw-bold text-uppercase small mb-2">
+              Primena u multimediji:
+            </h6>
+            <ul class="list-unstyled mb-0 small text-muted">
+              <li>
+                • <strong>Dubina boja:</strong> 8-bitna po kanalu (24-bit total)
+              </li>
+              <li>
+                • <strong>Kontrast:</strong> Dinamički opsežni raspon nijansi
+              </li>
+              <li>• <strong>Standard:</strong> Web-safe paleta boja</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row beauty-section align-items-center border-top">
+        <div class="col-md-5 text-center">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            class="img-fluid rounded-4 shadow-lg img-manja"
+          >
+            <source src="SLIKE/videobeauty.mp4" type="video/mp4" />
+            Vaš pretraživač ne podržava video.
+          </video>
+        </div>
+        <div class="col-md-7 ps-md-5">
+          <span class="badge-category">Digitalni Video</span>
+          <h2 class="mb-3">3. Dinamika i Frame Rate</h2>
+          <p>
+            Beauty tutorijali su savršen primer
+            <strong>digitalnog videa</strong>. Da bi pokret nanošenja proizvoda
+            bio fluidan, video mora imati stabilan broj frejmova u sekundi
+            (fps).
+          </p>
+          <p>
+            U našem projektu koristimo <strong>PAL sistem</strong> koji
+            garantuje profesionalni prikaz pokreta na evropskom tržištu.
+          </p>
+
+          <div class="tech-box">
+            <h6 class="fw-bold text-uppercase small mb-2">Video standardi:</h6>
+            <ul class="list-unstyled mb-0 small text-muted">
+              <li>• <strong>Frame Rate:</strong> 25 fps (PAL Standard)</li>
+              <li>
+                • <strong>Kompresija:</strong> H.264 / MP4 (High Definition)
+              </li>
+              <li>
+                • <strong>Teorema:</strong> Shannon-Nyquist diskretizacija
+                signala
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center py-5 mt-5 bg-white border-top">
+      <div class="container">
+        <div class="footer-emoji mb-3">💖 ✨ 💄 📸</div>
+        <p class="mb-0 fw-bold">
+          &copy; 2026 Multimedijalne Tehnologije - Projektni Tim
+        </p>
+        <p class="small text-muted italic">
+          "Lepota je u detaljima, a detalji su u pikselima."
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
