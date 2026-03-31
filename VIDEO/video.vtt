@@ -1,0 +1,160 @@
+﻿WEBVTT
+
+00:00:01.320 --> 00:00:03.510
+Dobro došli, moje ime je Mina Pavlović,
+
+00:00:03.520 --> 00:00:08.750
+student sam treće godine na smeru informatika. Danas ću vam predstaviti svoj
+
+00:00:08.760 --> 00:00:14.550
+projekat na temu Svet lepote u okviru predmeta osnove multimedijalnih tehnologija,
+
+00:00:14.560 --> 00:00:20.510
+koji predstavlja jednu interaktivnu multimedijalnu platformu na kojoj se nalaze video,
+
+00:00:20.520 --> 00:00:24.750
+zvuk, slike, takođe razni tekstovi,
+
+00:00:24.760 --> 00:00:29.910
+boje, što i predstavlja samu multimediju. Što se tiče uvoda i cilja
+
+00:00:30.040 --> 00:00:32.430
+projekta, cilj je bio kreirati edukativnu
+
+00:00:32.439 --> 00:00:36.710
+platformu koja koristi napredne multimedijalne elemente,
+
+00:00:36.720 --> 00:00:39.360
+odnosno da se napravi jedna Edutainment
+
+00:00:39.360 --> 00:00:45.070
+stranica koja će biti takođe i za zabavu i za edukaciju,
+
+00:00:45.080 --> 00:00:47.790
+koja će biti kasnije i predstavljena,
+
+00:00:47.800 --> 00:00:52.790
+ali u vidu pitanja i igre memorije. Što se ciljne grupe tiče,
+
+00:00:52.800 --> 00:00:59.910
+korisnici fokusirani na vizuelni doživljaj su jedni od ciljne grupe, takođe i oni koji
+
+00:01:00.080 --> 00:01:06.790
+žele da se malo više pronađu u svetu nege kože i šminke.
+
+00:01:06.800 --> 00:01:10.230
+Što se tiče vizuelnog identiteta i CSS-a,
+
+00:01:10.240 --> 00:01:16.150
+korišćena je root varijabla za konzistentnost boje i pristup bojama u kodu,
+
+00:01:16.160 --> 00:01:20.790
+uglavnom su korišćene pastelne boje (bebi roze beby plava),
+
+00:01:20.800 --> 00:01:27.590
+da bi se napravio mali kontrast između boja korišćene su bež siva boja.
+
+00:01:27.600 --> 00:01:30.630
+Digitalna tipografija za digitalnu
+
+00:01:30.640 --> 00:01:35.030
+tipografiju su odabrani sans serifni fontovi,
+
+00:01:35.040 --> 00:01:40.150
+zato što su oni najbolji za ekrane, odnosno za digitalne uređaje,
+
+00:01:40.160 --> 00:01:43.310
+za razliku od serifnih fontova koji se uglavnom koriste
+
+00:01:43.320 --> 00:01:48.710
+za štampu samim tim je dosta modernije i dosta bolje
+
+00:01:48.720 --> 00:01:52.550
+za korisnički interfejs.
+
+00:01:52.560 --> 00:01:55.950
+Produkcija grafike je rađena u Inkscape-u,
+
+00:01:55.960 --> 00:01:59.910
+odnosno sve iz vektorske galerije je rađeno u Inkscape-u i sačuvano
+
+00:02:00.160 --> 00:02:05.830
+u SVG formatu. Prednost je beskonačna skalabilnost bez gubitka kvaliteta,
+
+00:02:05.840 --> 00:02:10.910
+odnosno, pixel perfect design.
+
+00:02:10.919 --> 00:02:14.470
+Tehnika Trace bitmap je korišćena u Inkscape-u,
+
+00:02:14.480 --> 00:02:18.430
+odnosno kako su ove fotografije pretvorene u umetnost,
+
+00:02:18.440 --> 00:02:21.390
+tako što je korišćenjem pragova osvetljenja,
+
+00:02:21.440 --> 00:02:28.070
+separacija boje u vektore ova rasterska slika pretvorena u vektorsku.
+
+00:02:28.080 --> 00:02:33.910
+Što se video produkcije tiče, standard je 25 kadrova u sekundi,
+
+00:02:33.920 --> 00:02:35.830
+odnosno to je PAL standard,
+
+00:02:35.840 --> 00:02:41.430
+format je MP4 i fokus je na brzom strimovanju i 
+
+00:02:41.480 --> 00:02:44.790
+jasnoći prikaza.
+
+00:02:44.800 --> 00:02:48.790
+Interaktivnost sama se može uočiti u kvizu,
+
+00:02:48.800 --> 00:02:51.870
+kao što sam rekla, ovo je Edutainment stranica
+
+00:02:51.920 --> 00:02:58.110
+ta edukacija se može proveriti u okviru učenja kroz igru,
+
+00:02:58.120 --> 00:02:59.910
+kao što je kviz sa 10 pitanja.
+
+00:03:00.120 --> 00:03:01.790
+pitanja koji ima 10,
+
+00:03:01.800 --> 00:03:08.190
+koji ima sa 10 pitanja koji odmah ima povratnu informaciju za korisnika.
+
+00:03:08.200 --> 00:03:09.790
+Što se tiče zabave,
+
+00:03:09.800 --> 00:03:15.070
+postoji igra memorije sa feedback-om koja se zasniva na pronalaženju
+
+00:03:15.080 --> 00:03:20.590
+para ikona i ima određeno vreme 
+
+00:03:20.600 --> 00:03:27.910
+da korisnik završi igricu i broj poena koje je ostvario tokom igre.
+
+00:03:27.920 --> 00:03:29.910
+Zahvaljujući Bootstrap Grid sistemu
+
+00:03:30.200 --> 00:03:37.030
+omogućena je responzivnost, odnosno da se web stranica lepo prikaže na svim uređajima,
+
+00:03:37.040 --> 00:03:43.470
+nevezano da li je u pitanju telefon, tablet ili računar.
+
+00:03:43.480 --> 00:03:49.070
+Zaključak je da je multimedija ključ za pamćenje do 80% informacija,
+
+00:03:49.080 --> 00:03:52.430
+odnosno na osnovu multimedije i zahvaljujući njoj
+
+00:03:52.440 --> 00:03:57.750
+možemo zapamtiti dosta više informacija nego inače.
+
+00:03:57.760 --> 00:04:05.190
+Hvala na pažnji, uz pomoć QR koda može se skenirati i pogledati web stranica.
