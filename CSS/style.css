@@ -48,18 +48,24 @@ body {
   border-bottom: 2px solid var(--tamno-roze);
 }
 
-.btn-igra {
-  background: linear-gradient(45deg, var(--tamno-roze), #f06292);
+.navbar-nav .nav-item .btn-igra {
+  background: linear-gradient(45deg, #ff80ab, #f48fb1) !important;
   border-radius: 25px;
+  text-decoration: none;
   color: white !important;
   padding: 8px 20px !important;
-  box-shadow: 0 4px 15px rgba(244, 143, 177, 0.4);
+  margin-left: 10px;
+  box-shadow: 0 4px 12px rgba(244, 143, 177, 0.3);
   transition: all 0.3s ease;
+  border: none;
+  display: inline-block;
 }
 
-.btn-igra:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(244, 143, 177, 0.6);
+.navbar-nav .nav-item .btn-igra:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(244, 143, 177, 0.5);
+  background: linear-gradient(45deg, #f48fb1, #ff80ab) !important;
+  color: white !important;
 }
 
 .hero-section {
