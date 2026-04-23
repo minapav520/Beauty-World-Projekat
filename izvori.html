@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty World | 📚 Literatura i Izvori</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="SLIKE/favicon.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <style>
+      .source-card {
+        transition: all 0.3s ease;
+        border: none;
+        border-radius: 20px;
+        background: #fff;
+        border: 1px solid #fecfef !important;
+      }
+      .source-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(244, 143, 177, 0.2);
+        background-color: #fffafc;
+      }
+      .external-link-btn {
+        background-color: #f48fb1;
+        color: white;
+        border-radius: 12px;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: inline-block;
+        transition: background 0.3s;
+        font-weight: 500;
+      }
+      .external-link-btn:hover {
+        background-color: #d81b60;
+        color: white;
+      }
+      .category-badge {
+        background-color: #fecfef;
+        color: #d81b60;
+        font-size: 0.75rem;
+        padding: 5px 12px;
+        border-radius: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .icon-box {
+        font-size: 2rem;
+        margin-bottom: 15px;
+      }
+      .custom-nav {
+        background-color: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg custom-nav sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span>✨</span> Beauty World <span>💄</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">🏠 Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beauty.html">🌸 Nega i Estetika</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html">🖼️ Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="multimedija.html"
+                >📂 Media & Dokumenti</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="izvori.html">📚 Literatura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kviz.html">📝 Kviz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-igra" href="igra.html">🎮 IGRA</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="text-center mb-5">
+        <h2 class="display-5">📚 Eksterna Literatura</h2>
+        <p class="lead text-muted">
+          Kolekcija proverenih izvora za pravilnu negu kože i praćenje svetskih
+          beauty trendova.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-3 source-card text-center">
+            <div class="card-body">
+              <div class="icon-box">🌸</div>
+              <span class="category-badge mb-3 d-inline-block"
+                >Trendovi SRB</span
+              >
+              <h5 class="card-title">Lepota i Zdravlje</h5>
+              <p class="card-text text-muted">
+                Najpoznatiji regionalni portal sa savetima o nezi, zdravom
+                životu i beauty vestima.
+              </p>
+              <a
+                href="https://www.lepotaizdravlje.rs/lepota"
+                target="_blank"
+                class="external-link-btn"
+                >Otvori sajt 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-3 source-card text-center">
+            <div class="card-body">
+              <div class="icon-box">👤</div>
+              <span class="category-badge mb-3 d-inline-block">Edukacija</span>
+              <h5 class="card-title">Testiraj svoj tip kože</h5>
+              <p class="card-text text-muted">
+                Naučite kako da prepoznate da li je vaša koža suva, masna,
+                mešovita ili osetljiva.
+              </p>
+              <a
+                href="https://www.eucerin.rs/o-kozi/osnovna-znanja-o-kozi/tipovi-koze"
+                target="_blank"
+                class="external-link-btn"
+                >Saznaj više 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-3 source-card text-center">
+            <div class="card-body">
+              <div class="icon-box">🏥</div>
+              <span class="category-badge mb-3 d-inline-block"
+                >Dermatologija</span
+              >
+              <h5 class="card-title">La Roche-Posay Vodič</h5>
+              <p class="card-text text-muted">
+                Stručni saveti dermatologa za negu osetljive kože lica i
+                rešavanje specifičnih problema.
+              </p>
+              <a
+                href="https://www.laroche-posay.rs/osetljiva-koza"
+                target="_blank"
+                class="external-link-btn"
+                >Otvori sajt 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-3 source-card text-center">
+            <div class="card-body">
+              <div class="icon-box">🧪</div>
+              <span class="category-badge mb-3 d-inline-block">Nauka</span>
+              <h5 class="card-title">Healthline Skin Care</h5>
+              <p class="card-text text-muted">
+                Sveobuhvatan izvor informacija o aktivnim sastojcima poput
+                retinola i vitamina C.
+              </p>
+              <a
+                href="https://www.healthline.com/health/beauty-skin-care"
+                target="_blank"
+                class="external-link-btn"
+                >Otvori sajt 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-3 source-card text-center">
+            <div class="card-body">
+              <div class="icon-box">👗</div>
+              <span class="category-badge mb-3 d-inline-block"
+                >Moda i Luksuz</span
+              >
+              <h5 class="card-title">ELLE Beauty SRB</h5>
+              <p class="card-text text-muted">
+                Izvor za ljubitelje luksuzne kozmetike, dizajnerskih parfema i
+                modernog makeup-a.
+              </p>
+              <a
+                href="https://elle.rs/Lepota"
+                target="_blank"
+                class="external-link-btn"
+                >Otvori sajt 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm p-3 source-card text-center">
+            <div class="card-body">
+              <div class="icon-box">🎥</div>
+              <span class="category-badge mb-3 d-inline-block">Video</span>
+              <h5 class="card-title">Allure Beauty Lab</h5>
+              <p class="card-text text-muted">
+                Najbolji video tutorijali na svetu koji testiraju proizvode i
+                tehnike šminkanja.
+              </p>
+              <a
+                href="https://www.youtube.com/user/AllureMagazine"
+                target="_blank"
+                class="external-link-btn"
+                >Otvori sajt 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="alert alert-light mt-5 border-0 rounded-4 text-center shadow-sm py-4"
+      >
+        <p class="mb-0 text-muted">
+          <em
+            >"Lepota počinje onog trenutka kada odlučiš da budeš ono što
+            jesi."</em
+          >
+          — Coco Chanel
+        </p>
+      </div>
+    </div>
+
+    <footer class="text-center py-5 mt-5">
+      <div class="container">
+        <div class="footer-emoji">💖 ✨ 🧴</div>
+        <p>&copy; 2025 Osnove Multimedijalnih Tehnologija</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
