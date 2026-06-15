@@ -23,3 +23,6 @@ The application is built on an **aesthetic and responsive design** principles ta
 
 ## 📸 Application Preview
 ![Prikaz aplikacije](izgledStranice.jpg)
+
+## 🗒️ Storyboard
+![Storyboard](storyboard.png)
